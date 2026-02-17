@@ -10,6 +10,7 @@ function image_toggle() {
     document.getElementById("image").innerHTML = "\n  <img src=\"cat.jpg\" width=\"255\" height=\"255\" style=\"display: block; margin: auto; visibility: hidden;\">\n";
   }
 }
-function play_audio(audio_file) {
-  audio_file.play();
+function you_got_mail() {
+  let audio = "youve-got-mail-sound.mp3";
+  audio.play();
 }
