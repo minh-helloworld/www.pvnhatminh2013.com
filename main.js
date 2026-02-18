@@ -11,6 +11,6 @@ function image_toggle() {
   }
 }
 function you_got_mail() {
-  let audio = "youve-got-mail-sound.mp3";
+  let audio = new Audio("youve-got-mail.mp3");
   audio.play();
 }
