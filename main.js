@@ -14,6 +14,3 @@ function you_got_mail() {
   let audio = new Audio("youve-got-mail-sound.mp3");
   audio.play();
 }
-function mail_anchor() {
-  document.getElementById("mail").addEventListener("click", you_got_mail());
-}
